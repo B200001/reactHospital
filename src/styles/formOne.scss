@@ -1,0 +1,20 @@
+@import "main.scss";
+
+div{
+    margin: 2vh;
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding: 3px;
+    font: 400 1.2rem $text1;
+}
+.formOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 0 150px;
+}
+

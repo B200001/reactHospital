@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+$text1 : "Roboto";
+$color1: rgb(28, 165, 67);
+
+button{
+    height: 40px;
+    width: 90px;
+    background-color: $color1;
+    border: none;
+    text-decoration: none;
+    font: 400 1rem $text1;
+    &:hover{
+        background-color: rgba(5, 114, 38, 0.911);
+        color: white;
+    }
+}
+input{
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid #888; /* Use a subtle color for the border, like a light gray */
+    border-radius: 4px; /* Add a slight border-radius for a softer look */
+    padding: 0.5rem; /* Add some padding for better visual appeal */
+    box-sizing: border-box;
+    &:hover{
+        border-color: #555;
+    }
+}
+select{
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid #888; /* Use a subtle color for the border, like a light gray */
+    border-radius: 4px; /* Add a slight border-radius for a softer look */
+    padding: 0.5rem; /* Add some padding for better visual appeal */
+    box-sizing: border-box;
+    &:hover{
+        border-color: #555;
+    }
+}
